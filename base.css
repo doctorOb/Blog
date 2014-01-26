@@ -1,0 +1,149 @@
+p {
+	line-height: 1.635em;
+	margin: .7em 0 1em 0;
+	font-family: ff-meta-serif-web-pro, Georgia, Cambria, 'Times New Roman', Times, serif;
+	font-size: 1.3em;
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	position: absolute;
+	top: 0;
+	margin: 0;
+}
+
+h2 i {
+	float: left !important;
+}
+
+time {
+	color: #666665;
+	font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+	letter-spacing: -0.02em;
+	font-weight: 400;
+	font-style: normal;
+}
+
+html {
+	background: url("patterns/witewall_3.png");
+}
+
+h2.title {
+	font-family: acta-display, Georgia, Times, serif;
+	font-size: 3em;
+	color: #333;
+	font-weight: normal;
+	margin-top: 1em;
+	text-align: center;
+}
+
+h2.ui.header {
+	color: rgb(82, 77, 77) !important;
+}
+
+div.outer {
+	clear: both;
+}
+
+div.outer h2 {
+	padding-top: 30px;
+	padding-bottom: 0px;
+}
+
+div.top.banner {
+	float: right;
+	font-family: acta-display, Georgia, Times, serif;
+	background-color: rgba(218, 193, 193, 0.84);
+	-webkit-font-smoothing: antialiased;
+	margin-bottom: 50px;
+	width:100%;
+}
+
+.embed.unloaded {
+	width: 100%;
+	height: 30px;
+	background: white;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.emphasis {
+	color: rgb(189, 93, 93);
+}
+
+.hugging {
+	margin-top: -3%;
+}
+
+.inline.aside {
+	margin: 0 auto;
+	width: 80%;
+	font-size: 2em;
+	color: #333;
+}
+
+a {
+	color: #cf8b5e;
+	text-decoration: none;
+}
+
+div.top.banner strong {
+	font-style: italic;
+	color: rgb(189, 93, 93);
+}
+
+div.journal {
+	margin: 3em auto;
+	width: 50%;
+}
+
+figure {
+	margin-left: 0px;
+}
+
+figcaption {
+	color: #999;
+	font-family: "ProximaNova", "freight-sans-pro", Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	font-style: italic;
+	margin: .5em auto 1em;
+}
+
+.persistent-nav {
+	position: fixed;
+	left: 10px;
+	top: 10px;
+	width: 7% !important;
+}
+
+
+.persistent-nav .item {
+	color: rgba(218, 193, 193, 0.84);
+}
+
+@media screen and (max-device-width: 1224px) {
+	p {
+		font-size: 3em;
+	}
+	div.journal {
+		width: 90% !important;
+	}
+	.persistent-nav {
+		display: none;
+	}
+
+	h2 {
+		font-size: 3.5em !important;
+		background: rgba(218, 193, 193, 0.84);
+	}
+}
+
+
+/*
+	rgba(218, 193, 193, 0.84) - Cool faded maroon
+	rgba(78, 68, 56, 0.89) - Light (dark) brown for text
+	#cf8b5e - The rust orange used by soundcloud embed
+*/
