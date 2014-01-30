@@ -12,16 +12,38 @@ p {
 	margin-left:0;
 }
 
-.side-menu .folder .item {
-	background-image: -webkit-linear-gradient(left,rgba(0,0,0,.03) 0,rgba(0,0,0,.1) 1.5em,rgba(0,0,0,.03) 100%);
-	background-image: -moz-linear-gradient(left,rgba(0,0,0,.03) 0,rgba(0,0,0,.1) 1.5em,rgba(0,0,0,.03) 100%);
-	background-image: -o-linear-gradient(left,rgba(0,0,0,.03) 0,rgba(0,0,0,.1) 1.5em,rgba(0,0,0,.03) 100%);
-	background-image: -ms-linear-gradient(left,rgba(0,0,0,.03) 0,rgba(0,0,0,.1) 1.5em,rgba(0,0,0,.03) 100%);
-	background-image: linear-gradient(left,rgba(0,0,0,.03) 0,rgba(0,0,0,.1) 1.5em,rgba(0,0,0,.03) 100%);
+.folder {
+	font-family: acta-display, Georgia, Times, serif;
+	font-family: "freight-sans-pro", Helvetica, Arial, Sans-Serif;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.25);
+}
 
+.folder .item {
 	padding: .5em;
-	background-color: white;
-	border-bottom: 1px solid gray;
+	border-bottom: 1px dotted gray;
+}
+
+.folder .item:hover {
+	background: white;
+}
+
+.folder .item > a {
+	text-decoration: none;
+	color: rgb(119, 119, 119);
+	font-size: 1.3em;
+	font: 400 16px/20px "freight-sans-pro", Helvetica, Arial, Sans-Serif;
+	text-transform: uppercase;
+	display: block;
+	width: 100%;
+}
+
+.folder .header {
+	padding: 1em;
+	font-size: 1.5em;
+	font: 400 20px/26px "freight-sans-pro", Helvetica, Arial, Sans-Serif;
+	text-transform: uppercase;
+	background: rgba(235, 187, 33, 1);
 }
 
 .side-menu {
@@ -44,13 +66,14 @@ body.pushed {
 
 .left.sticky.navbutton {
 	position: fixed;
-	top: 1em;
+	top: 1.1em;
 	padding: 1em;
 	background-color: rgba(245, 215, 119, 0.46);
 }
 
-.navbutton:hover {
+.left.sticky.navbutton:hover {
 	cursor: hand;
+	background-color: rgba(235, 187, 33, 1);
 }
 
 body {
@@ -154,13 +177,13 @@ div.top.banner {
 	color: #333;
 }
 
-a {
+p > a {
 	color: #cf8b5e;
 	text-decoration: none;
 	border-bottom: 1px dotted #cf8b5e;
 }
 
-a:hover{
+p > a:hover{
 	color: orange;
 	border-bottom: 1px dotted orange;
 }
