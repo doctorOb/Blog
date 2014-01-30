@@ -18,7 +18,16 @@ function loadiFrames(week) {
 
 		
 		$('.week').waypoint(function(direction){
+
 			loadiFrames($(this));
+			var week = parseInt($(this).attr('id'),10),
+				offset = direction === 'up' ? week - 1 : week,
+				next;
+			$('.active').removeClass('active');
+			next = $('#week-' + offset);
+			if (next) {
+				next.addClass('active');
+			}
 		},{offset: "25%"});
 
 	});

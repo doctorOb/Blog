@@ -7,10 +7,57 @@ p {
 	-webkit-font-smoothing: antialiased;
 }
 
+
+.side-menu.active {
+	margin-left:0;
+}
+
+.side-menu .folder .item {
+	background-image: -webkit-linear-gradient(left,rgba(0,0,0,.03) 0,rgba(0,0,0,.1) 1.5em,rgba(0,0,0,.03) 100%);
+	background-image: -moz-linear-gradient(left,rgba(0,0,0,.03) 0,rgba(0,0,0,.1) 1.5em,rgba(0,0,0,.03) 100%);
+	background-image: -o-linear-gradient(left,rgba(0,0,0,.03) 0,rgba(0,0,0,.1) 1.5em,rgba(0,0,0,.03) 100%);
+	background-image: -ms-linear-gradient(left,rgba(0,0,0,.03) 0,rgba(0,0,0,.1) 1.5em,rgba(0,0,0,.03) 100%);
+	background-image: linear-gradient(left,rgba(0,0,0,.03) 0,rgba(0,0,0,.1) 1.5em,rgba(0,0,0,.03) 100%);
+
+	padding: .5em;
+	background-color: white;
+	border-bottom: 1px solid gray;
+}
+
+.side-menu {
+	width: 15em;
+	margin-left: -15em;
+	background-color: rgba(245, 215, 119, 0.46);
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	-webkit-transition: margin-left .3s ease,margin-top .3s ease;
+	transition: margin-left .3s ease,margin-top .3s ease;
+}
+
+body.pushed {
+	margin-left: 15em;
+	-webkit-transition: margin .3s ease,-webkit-transform .3s ease;
+	transition: margin .3s ease,transform .3s ease;
+}
+
+.left.sticky.navbutton {
+	position: fixed;
+	top: 1em;
+	padding: 1em;
+	background-color: rgba(245, 215, 119, 0.46);
+}
+
+.navbutton:hover {
+	cursor: hand;
+}
+
 body {
 	position: absolute;
 	top: 0;
 	margin: 0;
+	background-color: rgba(255, 255, 255, 0.43)
 }
 
 h2 i {
@@ -29,8 +76,16 @@ html {
 	background: url("patterns/witewall_3.png");
 }
 
+.title-wrapper {
+	/*background: url('http://www.leandrokasan.com/english/imagens/fingerstyle.jpg');*/
+	background-attachment: fixed;
+	height: 10em;
+	background-color: rgba(243, 184, 95, 0.54);
+}
+
 h2.title {
-	font-family: acta-display, Georgia, Times, serif;
+	/*font-family: acta-display, Georgia, Times, serif;*/
+	font-family:"freight-sans-pro", Helvetica, Arial, Sans-Serif;
 	font-size: 3em;
 	color: #333;
 	font-weight: normal;
@@ -44,11 +99,26 @@ h2.ui.header {
 
 div.outer {
 	clear: both;
+	padding-bottom: 30px;
+	margin-bottom: 100px;
+}
+
+div.outer.shadow {
+	-webkit-box-shadow: 0px 5px 9px 0px rgba(50, 50, 50, 0.63);
+	-moz-box-shadow:    0px 5px 9px 0px rgba(50, 50, 50, 0.63);
+	box-shadow:         0px 5px 9px 0px rgba(50, 50, 50, 0.63);
 }
 
 div.outer h2 {
-	padding-top: 30px;
+	padding-top: 1em;
 	padding-bottom: 0px;
+	margin: 0;
+}
+
+div.outer:last {
+	-webkit-box-shadow: none;
+	-moz-box-shadow:    none;
+	box-shadow:         none;
 }
 
 div.top.banner {
@@ -56,7 +126,6 @@ div.top.banner {
 	font-family: acta-display, Georgia, Times, serif;
 	background-color: rgba(218, 193, 193, 0.84);
 	-webkit-font-smoothing: antialiased;
-	margin-bottom: 50px;
 	width:100%;
 }
 
@@ -88,6 +157,12 @@ div.top.banner {
 a {
 	color: #cf8b5e;
 	text-decoration: none;
+	border-bottom: 1px dotted #cf8b5e;
+}
+
+a:hover{
+	color: orange;
+	border-bottom: 1px dotted orange;
 }
 
 div.top.banner strong {
