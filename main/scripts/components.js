@@ -4,7 +4,7 @@ var Blog = React.createClass({
 
 	render: function() {
 		return (<div>
-			<div className="title-wrapper">
+			<div id={this.props.name} className="title-wrapper">
 				<h2 className="title">{this.props.title}</h2>
 			</div>
 			<div className="journal week">
@@ -14,6 +14,20 @@ var Blog = React.createClass({
 	}
 });
 
+var Quote = React.createClass({
+
+	render: function(){
+		return (
+			<div className="quote left-border">
+				<p>{this.props.text}</p>
+			</div>
+		);
+	}
+});
+
+/* a sidebar, which manages href -> title mappings. TODO: refactor this to take 
+   an array of (href,title) combos, then generate items on render
+*/
 var SideBar = React.createClass({
 	getInitialState: function() {
 		return {
@@ -22,7 +36,7 @@ var SideBar = React.createClass({
 	},
 
 	handleToggle: function () {
-		var body = $('body');
+		var body = $('#container');
 		if (body.hasClass('pushed')){
 			body.removeClass('pushed');
 		} else {
@@ -46,12 +60,20 @@ var SideBar = React.createClass({
 			<div className={classes}>
 				<div className="folder">
 					<div className="header">Journal</div>
-				
 					<div className="item">
-						<a href="#2">Week 2</a>
+						<a href="#week5">Week 5</a>
 					</div>
 					<div className="item">
-						<a href="#1">Week 1</a>
+						<a href="#week4">Week 4</a>
+					</div>
+					<div className="item">
+						<a href="#week3">Week 3</a>
+					</div>			
+					<div className="item">
+						<a href="#week2">Week 2</a>
+					</div>
+					<div className="item">
+						<a href="#week1">Week 1</a>
 					</div>
 				</div>
 			</div>

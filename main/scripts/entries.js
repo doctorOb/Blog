@@ -3,6 +3,7 @@
 var articles = {
 	'week1': {
 		title: "Week 1 - An Introduction to Production & a Bit About Me",
+		name: 'week1',
 		html: (
 			<div>
 				<time className="date">{"Wednesday, January 21"}</time>
@@ -26,16 +27,16 @@ var articles = {
 					<p>
 						{"I've thought a lot about how I want to structure and write my EP. Logistically, I've taken an iteration driven approach to both composing and producing. I plan to first produce a rough demo of each track (the first iteration) that solidifies the structure of the track, but not necessarily the arrangement. The second iteration will be a raw studio recording, and the third will be the mastered tracks. So far, I've written an intro piece, and recorded it via direct input from my electric acoustic guitar."}
 					</p>
-					<figure name="intro" className="embed unloaded" data-iframe='<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/130688461&amp;color=dba785&amp;auto_play=false&amp;show_artwork=true"></iframe>'>
+					<figure name="intro" className="embed left-border unloaded" data-iframe='<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/130688461&amp;color=dba785&amp;auto_play=false&amp;show_artwork=true"></iframe>'>
 					</figure>
-					<figcaption>{"My introduction track was meant to slowly bring the listener up to the mood of the album"}</figcaption>
+					<figcaption className="left-border">{"My introduction track was meant to slowly bring the listener up to the mood of the album"}</figcaption>
 
 					<p>
 					{"A friend of mine, who is quite good at spoken word, has agreed to guest vocal on this track. I want to open the EP with a spoken word style monologue that conveys some of the themes and ideas present in the later tracks. The end of the song transitions perfectly into the second track, which I've drafted up an incomplete demo of as well. "}
 					</p>
-					<figure name="song1" className="embed unloaded" data-iframe='<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/130688727&amp;color=dba785&amp;auto_play=false&amp;show_artwork=true"></iframe>'>
+					<figure name="song1" className="embed left-border unloaded" data-iframe='<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/130688727&amp;color=dba785&amp;auto_play=false&amp;show_artwork=true"></iframe>'>
 					</figure>
-					<figcaption>{"This rough demo was hastily thrown together for the purpose of sharing with potential vocalists."}</figcaption> 
+					<figcaption className="left-border">{"This rough demo was hastily thrown together for the purpose of sharing with potential vocalists."}</figcaption> 
 
 					<p>
 						{"This showcases the first half of what I've written so far. I wanted to create something that could easily be sang over. This is my first time including banjo in a composition. I'm still not sure how to work it in to my style, as the banjo is heavily pigeonholed into a few select genres, bluegrass in particular. Because of this, I didn't have much reference material in the scope of they style that I've been playing."}
@@ -91,6 +92,7 @@ var articles = {
 
 	'week2' : {
 		title: "Week 2 - More About Audio",
+		name: 'week2',
 		html: (
 			<div>
 				<SubHeader text={"A Look at Digital Audio"}/>
@@ -121,7 +123,7 @@ var articles = {
 				<p>
 					{"Themeatically, we decided to cover ideas of remorse, but contrast them with acceptance. I spend a lot of time thinking about grief, and how we deal with it. That's what this first track is about, coping with death, and immorality through memory. Yubs and I quickly recorded a rough idea of how the song would play out, so that I could later go on to record the guitar part in the studio."}
 				</p>
-					<figure name="song1" className="embed unloaded" data-iframe='<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/132047041&amp;color=dba785&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"></iframe>'></figure><figcaption>{"The song starts out gloomy, but moves towards a hopeful outro, meant to introduce the themes of the next song."}</figcaption> 
+					<figure name="song1" className="embed left-border unloaded" data-iframe='<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/132047041&amp;color=dba785&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"></iframe>'></figure><figcaption className="left-border">{"The song starts out gloomy, but moves towards a hopeful outro, meant to introduce the themes of the next song."}</figcaption> 
 				<p>
 
 					{"While we were brainstorming, Yubs and I came up with this metaphor of a train. You get on at some point in your life, beginning a journey towards your nonexistence. Each stop represents choice, the possibility of debarking in an unknown land, to find yourself again and branch off onto a different path in life. A sort of juxtaposition between free will and determinism. We had a hard time translating this metaphor to song without making obvious comparisons, so we scraped the idea, but kept thinking of our character as being on this train ride of fate."}
@@ -149,5 +151,128 @@ var articles = {
 		)
 	},
 
+
+	'week3': {
+
+		title: "Week 3 - Portrait of a Man Whose Emotions Change the Weather",
+		name: 'week3',
+		html: (
+			<div>
+				<p>
+					{"Before this week, I only had a rough idea of what I wanted my EP to be, and where I wanted it to go. When I sat down with "}<span className="emphasis">Yubs</span>{", we hashed out a set of themes, admittedly on the sullen side, that we wanted the lyrical portion of the EP to cover. We ended up creating a character who would persist between the songs. I'll describe him in the way an opening narration for a typical episode of "}<span className="italic emphasis">The Twilight Zone</span>{" would..."}
+				</p>
+				<Quote text={"Portrait of a man whose emotions change the world around him. Afluent only in despair, a monotonous day job offers his only solace from the sorrowing thoughts within. I take you now to a bleak train ride through a weeping city, the solitary journey to and from work that cripples his every hope and dream."} />
+				<p>
+					{"I realize now that in doing so, I had locked myself into a pretty gloomy and depressing album. This was not my intention, but rather a product of an off-beat writing session. I'm planning to mend the darker tones left behind by the first song by introducing a glimmer of hope into the character's story. This magical transformation takes place in the second song."}
+				</p>
+
+				<SubHeader text={"Second Lyric session: A Chat with Brie and Mike"} />
+				<p>
+					{"I'm fortunate enough to know a few of the many talented vocalists here at WPI. Two of them agreed to help me with lyrics and vocals for my second song. We sat down for an hour or so to come up with some lyrics. I explained the theme-wise continuation from my first track, and the overall flow of the song. We wrote lyrics for two back to back verses, and an interlude, before breaking it off for the day. What we came up with is a duet between the character from the first song, and a equally downtrodden women he meets on the train. It's about his struggle to make real connections with people after the loss of his former love. Hopefully, we'll finish the lyrics up for this track by the end of the week. I plan to record most of the instrumentals before hand however."}
+				</p>
+
+				<p>
+					{"Vocals weren't meant to be a core component of my EP, they're more of a complement. For my second track, I knew right away that I'd need someone singing over most of the song. For my other songs however, I have no desire for any dedicated vocals. I've already written a guitar line for what will likely become the last song on my album. I took a lot of inspiration from "}<span className="italic">Elk</span>{" by "}<span className="emphasis">This Town Needs Guns (TTNG)</span>{"."}
+				</p>
+				<figure className="embed left-border unloaded" data-iframe='<iframe style="border: 0; width: 100%; height: 142px;" src="http://bandcamp.com/EmbeddedPlayer/album=990340459/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/t=7/transparent=true/" seamless><a href="http://thistownneedsguns.bandcamp.com/album/animals">Animals by TTNG</a></iframe>'></figure><figcaption className="left-border">I absolutely love the tapping in the guitar breaks</figcaption>
+				<p>
+					{"I've written something with a similar energy level which I hope to finish composing this week. I recorded "}<a href="https://soundcloud.com/d-rob-6/track-3-demo" target="_blank">most of the song</a>{" in the studio already, but still have a ways to go. I'm looking for another instrument, perhaps a trumpet, to provide a melody on top of the guitar. As with most songs on this EP, it will be through composed, meaning that it doesn't follow any rigid or repetitious pattern (such as verse-chorus-repeat). I've also decided to use the outro from the first song in this one. This time however, I plan to layer a number of small instrumental parts on top of the base chord progression, in a post-rock style. I think using this progression as both a forward passage to the album, as well as a eulogy, will add a sense of cohesion."}
+				</p>
+
+				<p>
+					{"I've also set out to craft an ambient reprise track to insert between the second and final track. I got the idea after re-watching "}<span className="italic emphasis">Upstream Color</span>{", which has a phenomenal soundtrack written by the film's writer, composer, editor, and director, Shane Carruth. I've recorded a "}<a href="https://soundcloud.com/d-rob-6/portrait-of-a-man-whose" target="_blank">rough demo</a>{" using an effects pedal as a preamp to get most of the echo and fade effects without any EQ. I'm currently working with one of my classmates to add a piano melody to this. It functions as a reticent interlude, allowing the listener to ease in to the final song, leaving behind the mood from the first half of my EP. Speaking of which, the title of this song may very well end up being the name of the EP."}
+				</p>
+				<SubHeader text={"Listening Session: Sgt. Pepper, and the fifth beatle."} />
+				<p>
+					{"I sat down and listened to "}<span className="italic">Sgt. Pepper's Lonely Hearts Club Band</span>{" earlier this week. But not before reading a poignant interview with "}<span className="emphasis">George Martin</span>{", who produced the album, as well as many subsequent releases. Martin claims that the album wouldn't have been as much of a success if it hadn't been recorded on a 4 track. This came as a surprise to me, as even at the time, multi track tapes were commonly used to record rich layered pop albums. Especially with the dense instrumental arrangements in some of the songs, its surprising that they we're able to squeeze everything down to just 4 lines. These limitations, Martin claims, fabricated a demand to be resourceful, and prompted them to explore the full boundaries set out by recording restrictions."}
+				</p>
+				<p>
+					{"You can definitely notice how "}<span className="italic">Pet Sounds</span>{" influenced the album. Both share a mix of complex arrangements of esoteric auxiliary instruments, as well as the traditional and invigorating wall of sound. "}<span className="italic">Within You Without You</span>{" is perhaps my favorite track on the album. Composed solely by Harison, the eastern-inspired composition and daedal arrangement combine to cultivate a truly blissful five minutes of sound. This is where Martin's role as a music minded producer, who embraced theory and composed independently of any target instruments, came to light. Martin is a paragon for the ideals of this class, where the producer acts as an additional composer. Martin detailed in his interview that some of the Beatles, particularly Lenon, were fairly resistant to the inclusion of strings or orchestral arrangements in their records. Here's an instance where a producer had to step on the toes of his performers, and butt heads over how their art should be molded. Some musicians view a composition as a finished demo, to be brought to a studio for the purpose of producing a more aesthetic recording."}
+				</p>
+				<p>
+					{"What Martin's interview has shown me, is that what you bring is actually a framework for a track, rather then a finished song. An ego can be a befogging shroud that isolates a creative system from external input. But collaboration is what truly enriches creativity. I love the act of writing, composing, or just brainstorming with a buddy. Bouncing ideas back and forth, watching as they rise and fall, or evolve with each added input. A heavy ego only marvels at the end product, but a true artist revels in the process of creation."}
+				</p>
+			</div>
+		)
+	},
+
+	'week4': {
+
+		title: "Week 4 - Hipster Sweaters On Film",
+		name: 'week4',
+		html: (
+			<div>
+				<p>
+					{"This week, I finished composing the instrumentals for my EP. Now, all that's left to do is vocals and studio work. Yubs (the man behind the spoken word on my EP), came by later last week to help me finish the first track. I used a large diaphragm condenser microphone to record his vocals, which turned out pretty well. He might return to make an appearance on my third song as well. I still haven't decided whether or not to include vocals, but I'm leaning towards doing so."}
+				</p>
+				
+				<SubHeader text={"A Closer Look at Miking Acoustics"}/>
+				<p>
+					{"I took the time to read up on miking Acoustic guitars. There are many ways to go about this, ranging from a single dynamic mic to a carefully positioned pairing of small condensers. Like all engineering, there is no absolute definitive solution, just a lot of different approaches that each garner a slightly different sound. For someone playing a traditional acoustic progression, the desired frequencies are largely resonating out of the sound hole, so miking towards this region produces a better sound. I learned that an additional room mic can really help saturate the main track with the added overlay of reverberated echoes and idle ambiance. For my second track, I mostly stick to a chord heavy progression, so I might play around with some of the sound hole centered styles. A single large diaphragm condenser placed a foot or so from the hole produces a really filling sound (at least in the audio examples "}<a target="_blank" href="http://www.cakewalk.com/Support/kb/reader.aspx/2007013311">here</a>{")."}
+				</p>
+
+				<p>
+					{"But what about non traditional acoustic playing, such as finger style and classical? The outro of my second track, and the entirety of my third track, focus heavily on finger picking and intricate fretwork (hammer ons, pull offs, slides, and tapping). These nuances don't emanate from the hole like chords do, they start propagating from the fretboard, before anything is picked up and weakly refracted from the hole. Miking the neck thus becomes essential. For this reason, I use a split pairing: one large diaphragm condenser sufficiently spaced away from the neck, and one smaller microphone hovering less then a foot away from the 12th fret. This mic is usually a small diaphragm condenser, but I went to experiment with other types to see which best capture the ephemeral intricacies of more advanced playing techniques."}
+				</p>
+
+				<figure class="img">
+					<img src="patterns/setup.jpg"/>
+				</figure><figcaption>My set up for this weeks recording session. The third mic is hidden behind the camera.</figcaption>
+				<p>
+					{"I hit up the studio earlier today and tracked out each section for my 3rd song. But not before playing around with different microphones. There's been a small dynamic mic in the studio for quite some time, and I decided to see how it would sound if I used it over the 12th fret. I had to give it a lot of gain in order for it to compete with the LDC that I had near the sound hole, but the overall results were resounding. The ephemeral high frequency squeaks of each slide up and down the neck stood out with perfect clarity. I did an A/B test between this new mic and the one I had used to fill its position in previous recordings. Overall I think it has a better, more dominant sound. I also set up a 3rd mic in the middle of the room, facing where I would be playing. My hope was to pick up some traces of the sound waves once they've moved freely through the room. It came out rather faint, and its difficult to tell whether its presence does nothing, or enhances the track ever so slightly. As such, I may just cut it out during the mixing process."}
+				</p>
+
+				<SubHeader text="How Dubstep Changed My Perspective On Electronic Music" />
+				<p>
+					{"I've been hesitant to fully embrace the emerging genre that is Electronic Music. In the past, I mostly brushed it off as being generic, repetitive, and predictable. I hoped that it would follow in the foot steps of Disco, and die out after less then a decade of cultural success. Much to my amaze however, I've recently taken a liking to some Electronic Music. It was only when I scrutinized it from a production standpoint, rather then a compositional one, that I realized its beauty. Electronic music is the ever evolving art of layering sounds atop each other to produce something meaningful. This is especially true for Dubstep drum tracks, which are essentially a sample sandwich. Sound On Sound suggests avoiding similar samples when layering for the drums, noting that contrast produces a more desirable sound. The key here is creating a low frequency scenery, with a higher frequency kick drum poking its head out once in a while."}
+				</p>
+
+				<p>
+					{"The second big component of Dubstep is the sub bass. A bass line is typically composed of sine waves. "}
+					<a className="tooltip" data-tooltip="Sound on sound is an excellent production magazine" href="SOS" target="_blank">	This Sound on Sound article
+					</a>
+					{" suggests starting with two sine waves an octave apart, then feeding them through a few filters. Oscillation synth and MIDI layering give the bass that classic wobble associated with Dubstep. Whats cool (and perhaps a tad tippy), is that you often see artists render already complex samples to be used in building even more samples. The depth and fullness of a well layered Dubstep track is something to marvel at. A good mix will use each component of the music (the kick, pad, high hat, bass, etc.) to fill the desired frequency range. "}
+				</p>
+
+			</div>
+		)
+
+	},
+
+	'week5' : {
+
+		title: "Week 5 - EQ",
+		name: 'week5',
+		html: (
+			<div>
+				<SubHeader text="Frequency Freakout (So, You Think You Can EQ?)"/>
+				<p>
+					{"EQ is the meticulous process of manipulating the frequency of an audio source. Anything between 0 and 20 kHz could be both dampened and amplified by EQ. Maybe you want to make that harmonic really ring out above everything else, or for your bass to sound brighter. Or perhaps, you really dislike the static scratchiness in the 14 kHz neighborhood. Good news, those can be cut or softened all with a simple application of equalization."}
+				</p>
+				<p>
+					{"Let's begin with an example. Say you have a track that has some troubling overtones resonating a dirty hum throughout your song. It isn't discordant, but its by no means pleasant. The presence of such a whir hinders the track, it must be removed. Luckily, this is a fairly common scenario. Our engineering forefathers figured out a way to combat undesirable frequency components. They offer a two pronged solution: the high and low pass filter. The high cut (low pass) filter is powered by capacitors and cuts out the higher frequency levels. High pass (low cut) filters act conversely, and are wired through resistors. In either case the resistor/capacitor is in series, and its cousin is sinking to ground. This set up has since been transfered to the digital world. Armed with these filters, you can effectively cut those clipping frequency patterns out of any track."}
+				</p>
+
+				<p>
+					{"My own material has been completely dry of any EQ thus far. But with the bounty of readings assigned this week, all of which intimately cover equalization, I felt that now was the time to start. Miking my guitar allowed for some of the finer nuanced expressive elements of the instrument to breathe through. Unfortunately, my not so subtle breathing was picked up in full, as well as the sometimes spiking lower tones of my intermittent chord progressions added a few auditory discrepancies. There was a muddled, distorted sound to anything involving the lower two strings of my guitar. This almost certainly had to do with mic position, but it was well justified. My play style employs lower bass heavy booms only sparingly, instead living mostly in the middle and upper octave range. Part of it is also my acoustic. It never got the greatest sound from the lower strings, and this is likely due to a poor set up (I'm in desperate need of a luthier). Regardless, this was a problem that I set out to fix in the mix."}
+				</p>
+
+				<p>
+					{"I started out with a high shelf filter. Shelving filters pass all frequencies through (rather then removing undesired ones, like cut filters), but increase or decrease frequencies below the shelf frequency. This allows me to bring certain frequency ranges to the front, without hiding the rest. Filtering can only get you so far, but the gap it leave can be filled, by a wonderful process called compression. At a high level, compression works by squishing signals exceeding a set threshold so that they balance out with the lower ones. When you consider the natural ebb and flow of a guitar line, you might find it desirable to smooth out some of the more forthcoming sounds, like the inevitable screech of a slide. This characteristic sound is an omnipresent component of any mic'd guitar, which can't be avoided. "}
+				</p>
+
+				<SubHeader text="Harnessing The Frictional Expression Of A Metalic Surface" />
+				<p>
+					{"Acoustic guitarist know all to well of a curious, evanescent sound matching no known note produced by the guitar. Higher in pitch then a typical harmonic, and exponential in decay, the sound is an unmaskable byproduct of any playing. This innominate sound is produced when a guitarist glides his fingers up or down the neck without applying even the faintest pressure to the strings. A comcomitant noise to the journey between chords. Guitarists seem to have an unnatural fear of this tone. Some try to avoid it, using DI and electric guitar to minimize its presence all together. But for a finger style acoustic guitarist, it's an ever present entity that can only be embraced. This sound has no name. The slide guitar style further complicates the matter, as it is entirely different from this mystery tone I've described so far. I'm tempted to call it a screech, but this carries an insufferable connotation. Until a true name comes to light, I'll refer to this as "}<span className="italic">the scritch.</span>
+				</p>
+
+				<p>
+					{"In my own recordings, one scritchful sequence stands out: the outro chord progression which I plan to end my EP with. I play an open note heavy chord between two alternate positions on the neck (5 frets apart), with identical fingerings. A quick and smooth transition between these two chords births the scritch. My predicament, was weather to pronounce it, or to diminish it. I first added a reverb effect to the guitar line, which with the right balance, emphasizes only the scritch. It adds a ghostly echo to the transitioning sound, while keeping the warm and filling chord backbone at a pleasant level. Next, I used a graphical multi band compressor to identify the band that the scritch lived in. The suspect zone was the 1-3k band. Compressing this band using a forgiving threshold added a good dampening to the higher frequency components of the scritches. Now, their pitch was more logarithmic and smooth. An additional low pass and high shelf filter stack softened the sharp, peaking scritch that once was. With the source scritch at a good level, my only decision was weather to keep the reverb. A matter which I need to further study before I can make an informed decision."}
+				</p>
+
+			</div>
+		)
+
+	}
 
 }
